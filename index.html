@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hangman</title>
+  <title> Haunted Hangman</title>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
 
@@ -19,31 +20,33 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="jumbotron">
          
-        
-          <div class="hangmanPic">Lets play a game</div>
-          <div id="board"></div>
+        <h4> Lets play a game</h4>
+        <h5> Start by guessing a letter</h5>
+          <div class="hangman"></div>
+          <div id="box"></div>
           <p id="game-over"></p>
+          <h6>Used Letters</h6>
           <div id="usedLetters"></div>
+
         </div>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="board">
-          <h3>Games Won:</h3>
+          <h3>Number of Games Won:</h3>
           <p id="wins"></p>
-          <h3>Guesses Left:</h3>
+          <h3>Amount of Guesses Left:</h3>
           <p id="guesses"></p>
         </div>
       </div>
-
-       <img id="Halloween-Background" src="" >
     </div>
   </div>
 </div>
 
 
-<script type="text/javascript" src="./assets/javascript/game.js"></script>
+<script type="text/javascript" src="/Users/haleylock/Desktop/Hangman-Game1/javascript/game.js"></script>
+
 </body>
 </html>
