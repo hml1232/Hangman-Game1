@@ -4,7 +4,7 @@ body {
 
 font-family: 'Nosifer', cursive;
 text-align: center;
-background-image: url(/Users/haleylock/Desktop/Hangman-Game1/images/1.jpg);
+background-image: url(../images/1.jpg);
 background-repeat: no-repeat;
 -webkit-background-size: cover;
 -moz-background-size: cover;
