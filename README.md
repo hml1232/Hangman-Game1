@@ -1,7 +1,7 @@
 # Hangman-Game1
 A haunted hangman game using javascript.
 
-##Description:
+## Description:
 
 1) The game selects a random word from a word list and makes that the secret word
 2) The player guesses one letter at a time, trying to figure out what the word is
