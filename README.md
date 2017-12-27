@@ -12,8 +12,8 @@ A haunted hangman game using javascript.
 
 ## Image Demo
 #### Game Won
-![alt text](./public/assets/images/gamewon.png)
+![alt text](./images/gamewon.png)
 
 #### Game Lost 
-![alt text](./public/assets/images/gamelost.png)
+![alt text](./images/gamelost.png)
 
